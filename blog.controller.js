@@ -1,4 +1,4 @@
-const Blog = require("./blog")
+const Blog = require("./Blog")
 
 exports.readBlogs = async (req, res) => {
     const result = await Blog.find()
